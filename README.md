@@ -10,7 +10,7 @@ Before applying this Terraform configuration, ensure that you have the following
 - AWS credentials configured with appropriate permissions.
 - Terraform cloud configured and enabled to CLI-driven run workflow.
 
-Open the backend.tf file and edit the cloud block within terraform block to your terraform cloud organization and specific workspace.
+Open the terraform.tf file and edit the cloud block within terraform block to your terraform cloud organization and specific workspace.
 
 ```hcl
 terraform {
